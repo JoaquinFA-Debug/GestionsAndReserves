@@ -1,0 +1,24 @@
+@GestionsAndReserves.Server_HostAddress = https://localhost:7231
+
+GET {{GestionsAndReserves.Server_HostAddress}}/api/reservations/GetServiceTypes
+Accept: application/json
+
+###
+
+GET {{GestionsAndReserves.Server_HostAddress}}/api/reservations/GetAllReservations
+
+###
+
+@id=0
+GET {{GestionsAndReserves.Server_HostAddress}}/api/reservations/{{id}}
+
+###
+
+POST {{GestionsAndReserves.Server_HostAddress}}/api/reservations
+Content-Type: application/json
+
+{
+  //Reservations
+}
+
+###
