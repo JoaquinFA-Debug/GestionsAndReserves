@@ -4,7 +4,7 @@ import './App.css';
 
 interface Reservation {
     id: number;
-    serviceID: number; 
+    serviceID: number;
     reservationDate: Date;
     clientDni: string;
     clientName: string;
@@ -23,6 +23,7 @@ function App() {
         populateReserves();
     }, []);
 
+    //Mapeo de servicios y reservas
     const serviceOptions = servicesTypes === undefined
         ? <option value="loading...">loading...</option>
         : servicesTypes.map(service =>
@@ -31,7 +32,7 @@ function App() {
 
     const allReservations = reservations === undefined
         ? <option value="loading...">loading...</option>
-        : reservations.map(r => 
+        : reservations.map(r =>
             <div className="reservation" id={r.id.toString()}>
                 <p>ID De servicio: {r.serviceID}</p>
                 <p>Dni del cliente: {r.clientDni}</p>
@@ -40,7 +41,7 @@ function App() {
             </div>
         );
 
-    
+
     function ReservationsForm() {
         const [formData, setFormData] = useState({
             name: "",
@@ -51,6 +52,7 @@ function App() {
         const [validDni, setDniValid] = useState(true);
         const [validName, setNameValid] = useState(true);
         const [validForm, setValidForm] = useState(true);
+        //Regex de dni argentino
         const isDniValidRegex = /^[0-9]{1,3}\.?[0-9]{3,3}\.?[0-9]{3,3}$/;
 
         const setDniData = (dniNum: string) => {
@@ -65,6 +67,7 @@ function App() {
         };
 
         const setNameData = (name: string) => {
+            //"Sanitizacion" del campo nombre
             setFormData({ ...formData, name: name.trim().toLowerCase().replace(/[^a-z]/g, '') })
 
             if (typeof name != 'undefined' && name.length > 0) {
@@ -76,7 +79,7 @@ function App() {
         };
 
         const formSubmit = (formData: FormData) => {
-
+            //POST En caso de que las validaciones esten bien, sino seteamos el form como invalido.
             if (validDni && validName) {
                 setValidForm(true);
 
@@ -100,7 +103,7 @@ function App() {
 
         return (
             <form action={formSubmit}>
-                {validForm ? "":"Existen errores en los campos porfavor llenar correctamente y volver a reservar"}
+                {validForm ? "" : "Existen errores en los campos porfavor llenar correctamente y volver a reservar"}
                 <label htmlFor="serviceType">
                     Servicio:
                     <select name="serviceType" value={formData.serviceType} onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}>
@@ -117,7 +120,7 @@ function App() {
                         onChange={(e) => setFormData({ ...formData, serviceDate: e.target.value })}
                     />
                 </label>
-                <label htmlFor="name">{validName ? "":"Porfavor ingrese un nombre valido "}Nombre:
+                <label htmlFor="name">{validName ? "" : "Porfavor ingrese un nombre valido "}Nombre:
                     <input
                         type="text"
                         name="name"
@@ -127,7 +130,7 @@ function App() {
                         onChange={(e) => setNameData(e.target.value)}
                     />
                 </label>
-                <label htmlFor="dni">{validDni ? "":"Porfavor ingrese un dni valido "}DNI:
+                <label htmlFor="dni">{validDni ? "" : "Porfavor ingrese un dni valido "}DNI:
                     <input
                         type="number"
                         name="dni"
@@ -150,7 +153,7 @@ function App() {
             {ReservationsForm()}
         </div>
     );
-
+    //Funciones de "populado" de contenido
     async function populateServices() {
         const response = await fetch('/api/Reservations/GetServiceTypes');
         if (response.ok) {
