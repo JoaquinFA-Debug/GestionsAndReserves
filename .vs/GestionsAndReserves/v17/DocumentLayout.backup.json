@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|d:\\usuario\\source\\repos\\gestionsandreserves\\gestionsandreserves.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|solutionrelative:gestionsandreserves.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|d:\\usuario\\source\\repos\\gestionsandreserves\\gestionsandreserves.client\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|solutionrelative:gestionsandreserves.client\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|d:\\usuario\\source\\repos\\gestionsandreserves\\gestionsandreserves.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|solutionrelative:gestionsandreserves.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F37DE78-6728-4ADC-B781-C30960D7EB36}|GestionsAndReserves.Server\\GestionsAndReserves.Server.csproj|d:\\usuario\\source\\repos\\gestionsandreserves\\gestionsandreserves.server\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F37DE78-6728-4ADC-B781-C30960D7EB36}|GestionsAndReserves.Server\\GestionsAndReserves.Server.csproj|solutionrelative:gestionsandreserves.server\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|d:\\usuario\\source\\repos\\gestionsandreserves\\gestionsandreserves.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FE68F584-75EC-5C82-BE66-F5144BDD0C35}|gestionsandreserves.client\\gestionsandreserves.client.esproj|solutionrelative:gestionsandreserves.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F37DE78-6728-4ADC-B781-C30960D7EB36}|GestionsAndReserves.Server\\GestionsAndReserves.Server.csproj|d:\\usuario\\source\\repos\\gestionsandreserves\\gestionsandreserves.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F37DE78-6728-4ADC-B781-C30960D7EB36}|GestionsAndReserves.Server\\GestionsAndReserves.Server.csproj|solutionrelative:gestionsandreserves.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\index.html",
+              "RelativeDocumentMoniker": "gestionsandreserves.client\\index.html",
+              "ToolTip": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\index.html",
+              "RelativeToolTip": "gestionsandreserves.client\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-13T23:14:32.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vite.config.ts",
+              "DocumentMoniker": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\vite.config.ts",
+              "RelativeDocumentMoniker": "gestionsandreserves.client\\vite.config.ts",
+              "ToolTip": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\vite.config.ts",
+              "RelativeToolTip": "gestionsandreserves.client\\vite.config.ts",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-13T04:34:33.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\GestionsAndReserves.Server\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "GestionsAndReserves.Server\\Controllers\\ReservationsController.cs",
+              "ToolTip": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\GestionsAndReserves.Server\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "GestionsAndReserves.Server\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:53:57.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\GestionsAndReserves.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionsAndReserves.Server\\appsettings.json",
+              "ToolTip": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\GestionsAndReserves.Server\\appsettings.json",
+              "RelativeToolTip": "GestionsAndReserves.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T22:12:48.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.tsx",
+              "DocumentMoniker": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\src\\main.tsx",
+              "RelativeDocumentMoniker": "gestionsandreserves.client\\src\\main.tsx",
+              "ToolTip": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\src\\main.tsx",
+              "RelativeToolTip": "gestionsandreserves.client\\src\\main.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-12T19:49:12.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "gestionsandreserves.client\\src\\App.tsx",
+              "ToolTip": "D:\\Usuario\\source\\repos\\GestionsAndReserves\\gestionsandreserves.client\\src\\App.tsx",
+              "RelativeToolTip": "gestionsandreserves.client\\src\\App.tsx",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwEMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-12T19:36:08.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
